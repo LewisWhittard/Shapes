@@ -48,7 +48,7 @@ namespace Shapes.Classes
 
         private int CalculateCircumference()
         {
-            return = 2 * (_width + _height);
+            return 2 * (_width + _height);
         }
     }
 
