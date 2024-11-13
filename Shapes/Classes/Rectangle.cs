@@ -43,12 +43,17 @@ namespace Shapes.Classes
 
         private int CalculateArea()
         {
-            return _width * _height;
+            return this._width * this._height;
         }
 
         private int CalculateCircumference()
         {
-            return 2 * (_width + _height);
+            return 2 * (this._width + this._height);
+        }
+
+        public string getCharecteristics()
+        {
+            return $"The Position of this shape is X{this._position.X} and Y{this._position.Y}.The colour of the shape is {this._colour.Name}. The area is {this._area}. The circumference is {this._circumference}";
         }
     }
 
