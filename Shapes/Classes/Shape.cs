@@ -25,7 +25,7 @@ namespace Shapes.Classes
             this.Colour = colour;
         }
 
-        public string getCharecteristics() 
+        public virtual string getCharacteristics() 
         {
             return $"The Position of this shape is X{this._position.X} and Y{this._position.Y}.The colour of the shape is {this._colour.Name}";   
         }
