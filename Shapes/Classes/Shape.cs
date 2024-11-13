@@ -9,14 +9,14 @@ namespace Shapes.Classes
 
         public Color Colour 
         { 
-            get { return _colour; }
-            private set { _colour = value; }
+            get { return this._colour; }
+            private set { this._colour = value; }
         }
 
         public Point Position
         {
-            get { return _position; }
-            private set { _position = value; }
+            get { return this._position; }
+            private set { this._position = value; }
         }
 
         public Shape(Point position, Color colour)

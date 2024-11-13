@@ -10,26 +10,26 @@ namespace Shapes.Classes
         private int _circumference;
 
         public int Width
-        { get { return _width; }
-            private set { _width = value; }
+        { get { return this._width; }
+            private set { this._width = value; }
         }
 
         public int Height
         {
-            get { return _height; }
-            private set { _height = value; }
+            get { return this._height; }
+            private set { this._height = value; }
         }
 
         public int Area
         {
-            get { return _area; }
-            private set { _area = value; }
+            get { return this._area; }
+            private set { this._area = value; }
         }
 
         public int Circumference
         {
-            get { return _circumference; }
-            private set { _circumference = value; }
+            get { return this._circumference; }
+            private set { this._circumference = value; }
         }
 
         public Rectangle(Point position, Color colour, int width, int height) : base(position, colour)
