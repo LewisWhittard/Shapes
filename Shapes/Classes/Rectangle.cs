@@ -36,8 +36,8 @@ namespace Shapes.Classes
         {
             Width = width;
             Height = height;
-            this.Area = CalculateArea();
-            this.Circumference = CalculateCircumference();
+            this.Area = this.CalculateArea();
+            this.Circumference = this.CalculateCircumference();
 
         }
 
