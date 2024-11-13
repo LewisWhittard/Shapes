@@ -58,6 +58,3 @@ namespace Shapes.Classes
     }
 
 }
-
-}
-}
